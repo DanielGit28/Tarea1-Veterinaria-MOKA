@@ -55,7 +55,7 @@ public class Main {
                     if (arregloDeMascotas[i] != null) {
                         if (arregloDeMascotas[i].getNombre().equals(nombreMascota)) {
                             output.println("No se puede ingresar una mascota ya existente. Intente de nuevo");
-                            break;
+                            return;
                         }
                     }
                 }
