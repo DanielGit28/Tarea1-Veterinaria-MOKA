@@ -26,7 +26,7 @@ public class Main {
             //output.println("Ingresar opción");
             opcion = input.nextInt();
             procesarOpcion(opcion);
-        } while (opcion != 8);
+        } while (opcion != 11);
 
     }
 
