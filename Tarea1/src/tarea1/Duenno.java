@@ -2,7 +2,7 @@
 package tarea1;
 
 
-public class Dueño {
+public class Duenno {
     private String nombre;
     private String cedula;
     private String telefono;
@@ -38,11 +38,11 @@ public class Dueño {
         return "Dueño: [nombre: " +this.nombre + ", cedula: "+ this.cedula + ", teléfono: "+ this.telefono + ", dirección: " + this.direccion + "]";
     } 
     
-    public Dueño(String nombre, String cedula, String telefono,String direccion) {
+    public Duenno(String nombre, String cedula, String telefono,String direccion) {
         this.nombre = nombre;
         this.cedula = cedula;
         this.telefono = telefono;
         this.direccion = direccion;
     }
-    public Dueño() { }
+    public Duenno() { }
 }

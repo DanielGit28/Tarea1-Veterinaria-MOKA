@@ -4,7 +4,7 @@ package tarea1;
 
 public class Mascota {
     private String nombre;
-    private String dueño;
+    private Duenno duenno;
     private String foto;
     private int ranking;
 
@@ -14,11 +14,11 @@ public class Mascota {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-    public String getDueño() {
-        return this.dueño;
+    public Duenno getDuenno() {
+        return duenno;
     }
-    public void setDueño(String dueño) {
-        this.dueño = dueño;
+    public void setDuenno(Duenno duenno) {
+        this.duenno = duenno;
     }
     public String getFoto() {
         return this.foto;
@@ -36,14 +36,17 @@ public class Mascota {
     
     @Override
     public String toString() {
-        return "Mascota: [nombre: " +this.nombre + ", dueño: "+ this.dueño + ", foto: "+ this.foto+", ranking: " + this.ranking + "]";
+        return "Mascota: [nombre: " +this.nombre + ", dueño: "+ this.duenno + ", foto: "+ this.foto+", ranking: " + this.ranking + "]";
     } 
     
-    public Mascota(String nombre, String dueño, String foto,int ranking) {
+    public Mascota(String nombre, Duenno duenno, String foto,int ranking) {
         this.nombre = nombre;
-        this.dueño = dueño;
+        this.duenno = duenno;
         this.foto = foto;
         this.ranking = ranking;
     }
     public Mascota() { }
+
+  
+    
 }
