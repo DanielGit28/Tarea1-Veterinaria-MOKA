@@ -1,6 +1,8 @@
 
-package tarea1;
+package cr.ac.ucenfotec.tarea2.bl.entidades;
 
+
+import cr.ac.ucenfotec.tarea2.bl.entidades.Duenno;
 
 public class Mascota {
     private String nombre;

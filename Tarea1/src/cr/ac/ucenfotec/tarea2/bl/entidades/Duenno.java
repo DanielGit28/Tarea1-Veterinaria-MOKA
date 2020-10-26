@@ -1,14 +1,12 @@
 
-package tarea1;
+package cr.ac.ucenfotec.tarea2.bl.entidades;
 
 
-public class Usuario {
+public class Duenno {
     private String nombre;
     private String cedula;
     private String telefono;
     private String direccion;
-    private String rol;
-    private String estado;
     
     public String getNombre() {
         return this.nombre;
@@ -34,31 +32,17 @@ public class Usuario {
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
-    public String getRol() {
-        return this.rol;
-    }
-    public void setRol(String rol) {
-        this.rol = rol;
-    }
-    public String getEstado() {
-        return this.estado;
-    }
-    public void setEstado(String estado) {
-        this.estado = estado;
-    }
     
     @Override
     public String toString() {
-        return "Usuario: [Nombre completo: " +this.nombre + ", cédula: "+ this.cedula + ", teléfono: "+ this.telefono + ", dirección: " + this.direccion + ", rol: " + this.rol + ", estado: " + this.estado + "]";
+        return "Dueño: [nombre: " +this.nombre + ", cedula: "+ this.cedula + ", teléfono: "+ this.telefono + ", dirección: " + this.direccion + "]";
     } 
     
-    public Usuario(String nombre,String cedula , String telefono, String direccion, String rol, String estado) {
+    public Duenno(String nombre, String cedula, String telefono,String direccion) {
         this.nombre = nombre;
         this.cedula = cedula;
         this.telefono = telefono;
         this.direccion = direccion;
-        this.rol = rol;
-        this.estado = estado;
     }
-    public Usuario() { }
+    public Duenno() { }
 }
