@@ -2,7 +2,10 @@ package cr.ac.ucenfotec.tarea2.iu;
 
 import java.io.PrintStream;
 import java.util.Scanner;
-
+/**
+ * @author Daniel Zúñiga Rojas
+ * @version 1.0
+ */
 public class IU {
     private PrintStream output = new PrintStream(System.out);
     private Scanner input = new Scanner(System.in).useDelimiter("\n");

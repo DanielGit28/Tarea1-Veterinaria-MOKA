@@ -3,7 +3,10 @@ package cr.ac.ucenfotec.tarea2.bl.logica;
 import cr.ac.ucenfotec.tarea2.bl.entidades.*;
 
 import java.util.ArrayList;
-
+/**
+ * @author Daniel Zúñiga Rojas
+ * @version 1.0
+ */
 public class Gestor {
     ArrayList<Usuario> usuarios = new ArrayList<>();
     ArrayList<Duenno> duennos = new ArrayList<>();

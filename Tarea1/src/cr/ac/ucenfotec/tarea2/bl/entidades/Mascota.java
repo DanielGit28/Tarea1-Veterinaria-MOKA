@@ -3,7 +3,10 @@ package cr.ac.ucenfotec.tarea2.bl.entidades;
 
 
 import cr.ac.ucenfotec.tarea2.bl.entidades.Duenno;
-
+/**
+ * @author Daniel Zúñiga Rojas
+ * @version 1.0
+ */
 public class Mascota {
     private String nombre;
     private Duenno duenno;
